@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 100%;
+}
+
+fieldset {
+    background-color: #202020;
+    width: 320px;
+    height: 600px;
+    margin-top: 55px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 55px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    background-color: rgba(255, 228, 196, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.conteiner {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+}
+
+label, input[type="email"], input[type="password"], input[type="text"], input[type="tel"], input[type="submit"] {
+    display: block;
+    width: 100%;
+}
+
+.nome {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+#nome, #email, #tel, #confirmar-senha, #senha {
+    height: 28px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+}
+
+#nome, #email, #tel, #senha, #confirmar-senha {
+    margin-bottom: 10px;
+}
+
+#cadastro {
+    margin-top: 20px;
+    color: white;
+    background-color: #05B436;
+    border: none;
+    height: 40px;
+    border-radius: 11px;
+}
+
+#cadastro:hover {
+    background-color: #05972f;
+}
+
+.cadastro {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #C1C1C1;
+    letter-spacing: -1px;
+}
+
+.cadastro > a {
+    color: white;
+}
+
+.cadastro > a:hover {
+    color: #af8600;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
+    background-color: rgb(201, 197, 193);
+}
+
+.termos {
+    color: #0075FF;
+}
+#box-termos{
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:325px) {
+    fieldset {
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    .conteiner {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

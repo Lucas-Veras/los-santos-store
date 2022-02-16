@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 100%;
+}
+
+fieldset {
+    background-color: #202020;
+    width: 320px;
+    height: 550px;
+    margin-top: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    background-color: rgba(255, 228, 196, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.conteiner {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+#email, #senha {
+    height: 28px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+#entrar {
+    margin-top: 20px;
+    color: white;
+    background-color: #05B436;
+    border: none;
+    height: 40px;
+    border-radius: 11px;
+}
+
+#entrar:hover {
+    background-color: #05972f;
+}
+
+.button1 {
+    background-color: #2B2B2B;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button1:hover{
+    background-color: #252525;
+}
+
+.google {
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.text p {
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.face {
+    display: inline-block;
+    background-color:#3B5998;
+    ;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.cadastro {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #C1C1C1;
+    letter-spacing: -1px;
+}
+
+.cadastro > a {
+    color: white;
+}
+
+.cadastro > a:hover {
+    color: #af8600;
+}
+
+.face-logo {
+    filter: invert(99%) sepia(0%) saturate(737%) hue-rotate(215deg) brightness(122%) contrast(100%);
+    width: 20px;
+}
+
+.google-logo {
+    width: 20px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    background-color: rgb(201, 197, 193);
+}
+
+@media screen and (max-width:325px) {
+    fieldset {
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    .conteiner {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

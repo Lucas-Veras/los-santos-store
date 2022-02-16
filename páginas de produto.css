@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#logo {
+    width: 100px;
+}
+
+#entrar {
+    width: 25px;
+    filter: invert(99%) sepia(0%) saturate(737%) hue-rotate(215deg) brightness(122%) contrast(100%);
+}
+
+#carrinho {
+    width: 25px;
+    filter: invert(99%) sepia(0%) saturate(737%) hue-rotate(215deg) brightness(122%) contrast(100%);
+}
+
+#headerPrincipal {
+    background-color: #2A2A2A;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.flecha{
+    display: inline-block;
+    width: 10px;
+    filter: invert(40%) sepia(120%) saturate(5%) hue-rotate(300deg) brightness(90%) contrast(100%);
+    transform: scaleX(-1);
+    text-decoration: none;
+}
+
+.link-desc{
+    display: inline-block;
+    text-decoration: none;
+    color: #737373;
+}
+
+.link-desc:hover{
+    color: #696969;
+}
+
+input[type="search"] {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border-radius: 8px;
+    background-image: url("Imagens/search.svg");
+    background-size: 13px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    text-indent: 22px;
+    position: relative;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    color: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    border-width: 0;
+    text-decoration: none;
+}   
+
+.link-carrinho:hover {
+    background-color: #1f1e1e;
+}
+
+.link-carrinho img {
+    margin-right: 5px;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 800px;
+}
+
+main header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+main header a {
+    color: #ddd;
+}
+
+main header hr {
+    margin-top: 20px;
+}
+
+main section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#capa {
+    width: 65%;
+    border-radius: 20px;
+}
+
+main section form {
+    width: 30%;
+    height: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+main h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section form div {
+    width: 100%;
+}
+
+form h2 {
+    font-size: xx-large;
+}
+
+main section form div h3 {
+    font-size: x-large;
+}
+
+main section form div input, select {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 0;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+main p {
+    width: 65%;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: green;
+    width: 100%;
+    border-radius: 8px;
+    border-width: 0;
+    height: 80px;
+    font-size: xx-large;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #202020;
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-logo{
+    width: 32px;
+    filter: invert(100%) sepia(120%) saturate(5%) hue-rotate(300deg) brightness(90%) contrast(100%);
+}
+
+.redes-sociais >a:hover{
+    filter: invert(100%) sepia(120%) saturate(2%) hue-rotate(300deg) brightness(90%) contrast(100%);
+}
+
+.redes-sociais{
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.h4{
+    color: #606060;
+}
+
+.desc-info{
+    color: #E7E7E7;
+}
+
+#pesquisa{
+    border: none;
+}
+
+.descricao-jogo{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+#logo {
+    width: 100px;
+}
+
+#entrar {
+    width: 25px;
+    filter: invert(99%) sepia(0%) saturate(737%) hue-rotate(215deg) brightness(122%) contrast(100%);
+}
+
+#carrinho {
+    width: 25px;
+    filter: invert(99%) sepia(0%) saturate(737%) hue-rotate(215deg) brightness(122%) contrast(100%);
+}
+
+header {
+    background-color: #2A2A2A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+input[type="search"] {
+    width: 250px;
+    height: 25px;
+    transform: translateY(-160%);
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background-image: url("Imagens/search.svg");
+    background-size: 13px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    text-indent: 22px;
+}
+
+.link-header1 {
+    display: inline-block;
+    transform: translateY(-40%);
+    font-size: 0.8em;
+}
+
+.link-header2 {
+    display: inline-block;
+    transform: translateY(-42%);
+    font-size: 0.8em;
+}
+
+.right > a {
+    display: inline-block;
+    text-decoration: none;
+    color:#B4B4B4;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+}
+
+.right > a:hover {
+    background-color: #1f1e1e;
+}
+
+.primeira-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.link-desc{
+    display: inline-block;
+    transform: translateY(-20%);
+    text-decoration: none;
+    color: #737373;
+}
+
+hr {
+    width: 92%;
+    display: flex;
+    margin:auto;
+}
+
+.link-desc:hover{
+    color: #696969;
+}
+
+.link-home{
+    width: 400px;
+    transform: translateX(-105%);
+}
+
+.flecha{
+    display: inline-block;
+    width: 20px;
+    filter: invert(40%) sepia(120%) saturate(5%) hue-rotate(300deg) brightness(90%) contrast(100%);
+    transform: scaleX(-1);
+    text-decoration: none;
+}
+
+.carrinho > p {
+    color: #606060;
+    margin-top: 40px;
+}
+
+.carrinho {
+    text-align: center;
+    font-size: 1.2em; 
+    margin-bottom: 200px;  
+}
+
+.conteiner-carrinho > p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.compras {
+    text-decoration: none;
+    color: white;
+    background-color:#858585;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #202020;
+    margin-top: 50px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-logo{
+    width: 32px;
+    filter: invert(100%) sepia(120%) saturate(5%) hue-rotate(300deg) brightness(90%) contrast(100%);
+}
+
+.redes-sociais >a:hover{
+    filter: invert(100%) sepia(120%) saturate(2%) hue-rotate(300deg) brightness(90%) contrast(100%);
+}
+
+.redes-sociais{
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.h4{
+    color: #606060;
+}
+
+.desc-info{
+    color: #E7E7E7;
+}
